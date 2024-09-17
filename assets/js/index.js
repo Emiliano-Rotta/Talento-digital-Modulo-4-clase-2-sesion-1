@@ -167,3 +167,84 @@
 // //     return n * 2;
 // // }
 // const duplicarFlecha = n => n * 2;
+
+
+
+
+// --------------------------------------------
+// Consignas de los 15 ejercicios: hasta las 20.30
+//1 Dado el siguiente objeto persona, usa destructuring anidado para extraer el nombre y la ciudad de residencia de la persona.
+
+// const persona = {
+//     nombre: "Ana",
+//     edad: 30,
+//     direccion: {
+//         ciudad: "Madrid",
+//         pais: "España"
+//     }
+// };
+
+//-------------------------------------
+//2 A partir del siguiente array, usa destructuring anidado para obtener el segundo valor de cada sub-array.
+
+// const numeros = [[1, 2], [3, 4], [5, 6]];
+
+//-------------------------------------
+//3 Crea una función tradicional que reciba un objeto con propiedades nombre, edad y profesion. Usa destructuring en los parámetros de la función para extraer esas propiedades y mostrar un mensaje con ellas.
+
+//-------------------------------------
+//4 Convierte la función del ejercicio anterior en una función flecha.
+
+//-------------------------------------
+//5 A partir del siguiente array de colores, usa destructuring con el operador rest para extraer el primer color en una variable, y los demás colores en un array llamado otrosColores.
+
+// const colores = ["rojo", "azul", "verde", "amarillo"];
+
+//-------------------------------------
+//6 Dado el siguiente objeto auto, crea una función que use destructuring en los parámetros para extraer el modelo y el año. La función debe devolver una cadena que diga: "El modelo es [modelo] y el año es [año]".
+
+// const auto = {
+//     modelo: "Toyota",
+//     año: 2021,
+//     color: "negro"
+// };
+//-------------------------------------
+//7 Convierte la función del ejercicio anterior en una función flecha.
+//-------------------------------------
+//8 Dado el siguiente array frutas, usa destructuring anidado para extraer la primera fruta del primer sub-array y la segunda fruta del tercer sub-array.
+
+// const frutas = [["manzana", "pera"], ["naranja", "limón"], ["cereza", "fresa"]];
+
+//-------------------------------------
+//9 Crea una función tradicional que reciba un array de números y use destructuring en los parámetros para extraer el primer número y el resto de los números. La función debe devolver un array con el primer número duplicado y el resto sin cambios.
+
+//-------------------------------------
+//10 Convierte la función del ejercicio anterior en una función flecha.
+
+//-------------------------------------
+//11 A partir del siguiente objeto libro, usa destructuring anidado para extraer el nombre del autor y el nombre del segundo capítulo.
+
+// const libro = {
+//     titulo: "JavaScript Avanzado",
+//     autor: {
+//         nombre: "Carlos Ruiz",
+//         edad: 45
+//     },
+//     capitulos: ["Introducción", "Funciones", "Objetos"]
+// };
+//-------------------------------------
+//12 Dado el siguiente array de arrays, usa destructuring anidado y operador rest para extraer el primer valor de cada sub-array y el resto de los valores en un nuevo array llamado otrosNumeros.
+
+// const numeros = [[10, 20, 30], [40, 50, 60], [70, 80, 90]];
+
+//-------------------------------------
+//13 Crea una función tradicional que reciba un objeto mascota con las propiedades nombre, tipo y edad. Usa destructuring en los parámetros para extraer las propiedades y devolver un mensaje con ellas.
+
+//-------------------------------------
+//14 Convierte la función del ejercicio anterior en una función flecha.
+
+//-------------------------------------
+//15 Dado el siguiente array alumnos, crea una función que use destructuring en los parámetros para extraer el primer y segundo alumno, y devuelva un mensaje que diga: "Los primeros dos alumnos son [alumno1] y [alumno2]".
+
+// const alumnos = ["Lucas", "Sofía", "Martín", "Paula"];
+//-------------------------------------
