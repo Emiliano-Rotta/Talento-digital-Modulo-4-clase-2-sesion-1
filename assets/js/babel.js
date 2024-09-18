@@ -24,7 +24,7 @@
 const x = "Mundo"
 hola = () => `Hola ${x}`;
 
-const sumar = (x, y) => {return x + y };
+const sumar = (x, y) => {return x + y };  //esto es lo que cambia con babel
 
 const num1 = 1;
 const num2 = 2;
