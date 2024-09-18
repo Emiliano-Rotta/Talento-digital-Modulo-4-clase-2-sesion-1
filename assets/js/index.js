@@ -168,7 +168,24 @@
 // // }
 // const duplicarFlecha = n => n * 2;
 
+// class Persona {
+//     constructor(nombre, edad) {
+//         this.nombre = nombre;
+//         this.edad =  edad;
+//     }
+//     //funcion tradicional (metodo) hasta el 2015 ES5
+//     // saludar() {
+//     //     return "Hola, mi nombre es " + this.nombre + " y tengo " + this.edad + " años."
+//     // }
+//     //funcion flecha + interpolacion desde el 2015 ES6
+//     saludar = () => `Hola, mi nombre es ${this.nombre} y tengo ${this.edad} años.`
+    
+// }
 
+// const personaUno = new Persona("Armando", 20);
+// var saludo = personaUno.saludar()
+
+// console.log(saludo)
 
 
 // --------------------------------------------
